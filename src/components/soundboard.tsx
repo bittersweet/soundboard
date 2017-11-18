@@ -1,13 +1,7 @@
 import * as React from "react";
 
 export class Soundboard extends React.Component {
-  onClick(e: any) {
-      var audio = document.getElementById("airhorn") as HTMLAudioElement;
-      audio.currentTime = 0;
-      audio.play();
-  }
-
-  render() {
+  public render() {
       return (
           <div className="columns">
             <div className="column">
@@ -19,5 +13,11 @@ export class Soundboard extends React.Component {
             </div>
           </div>
           );
+  }
+
+  private onClick(e: any) {
+      const audio = document.getElementById("airhorn") as HTMLAudioElement;
+      audio.currentTime = 0;
+      audio.play();
   }
 }

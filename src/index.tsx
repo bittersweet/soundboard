@@ -5,5 +5,5 @@ import { Soundboard } from "./components/soundboard";
 
 ReactDOM.render(
   <Soundboard/>,
-  document.getElementById("soundboard")
+  document.getElementById("soundboard"),
 );
