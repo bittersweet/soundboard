@@ -1,11 +1,11 @@
 import * as React from "react";
 
-interface SoundProps {
-    audio: string
+interface ISoundProps {
+    audio: string;
 }
 
-export default class Sound extends React.Component<SoundProps> {
-    constructor(props: SoundProps) {
+export default class Sound extends React.Component<ISoundProps> {
+    constructor(props: ISoundProps) {
         super(props);
     }
 
