@@ -1,1 +1,5 @@
 dist/
+public/*.js
+public/*.map
+public/components/
+
