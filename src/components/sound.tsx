@@ -13,9 +13,7 @@ export default class Sound extends React.Component<ISoundProps> {
         return (
             <div className="column">
                 <a className="button is-large is-primary" onClick={(e) => this.onClick(e)}>
-                    <span className="icon is-large">
-                        <i className="fa fa-music"></i>
-                    </span>
+                    { this.props.audio }
                 </a>
             </div>
         );
