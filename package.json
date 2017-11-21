@@ -5,7 +5,10 @@
   "main": "index.js",
   "scripts": {
     "lint": "tslint -c tslint.json 'src/**/*'",
-    "start": "node index.js"
+    "start": "node index.js",
+    "build": "webpack --config webpack.dev.js --progress",
+    "build-production": "webpack -p --config ./webpack.prod.js --progress",
+    "heroku-postbuild": "webpack -p --config ./webpack.prod.js --progress"
   },
   "author": "",
   "license": "ISC",
@@ -21,6 +24,7 @@
     "awesome-typescript-loader": "^3.3.0",
     "source-map-loader": "^0.2.3",
     "typescript": "^2.6.1",
-    "webpack-dev-server": "^2.9.4"
+    "webpack-dev-server": "^2.9.4",
+    "webpack-merge": "^4.1.1"
   }
 }
