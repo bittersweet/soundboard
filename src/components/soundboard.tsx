@@ -7,6 +7,8 @@ export class Soundboard extends React.Component {
           <div className="columns">
             <Sound audio="airhorn"></Sound>
             <Sound audio="doitlive"></Sound>
+            <Sound audio="alwaysbeclosing"></Sound>
+            <Sound audio="badumtss"></Sound>
           </div>
           );
   }
