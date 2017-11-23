@@ -25,6 +25,7 @@ export class Soundboard extends React.Component {
             </div>
             <div className="columns">
               <Sound audio="mansnothot"></Sound>
+              <Sound audio="shit"></Sound>
             </div>
             <div className="columns">
               <Sound audio="bob-geengulden"></Sound>
@@ -46,6 +47,13 @@ export class Soundboard extends React.Component {
             </div>
             <div className="columns">
               <Sound audio="bob-vijfeuros"></Sound>
+              <Sound audio="aksintheback"></Sound>
+              <Sound audio="jazeker"></Sound>
+              <Sound audio="krakaka"></Sound>
+            </div>
+            <div className="columns">
+              <Sound audio="wegingenlekker"></Sound>
+              <Sound audio="woonin1095"></Sound>
             </div>
           </div>
           );
