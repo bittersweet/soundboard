@@ -26,6 +26,7 @@ export class Soundboard extends React.Component {
             <div className="columns">
               <Sound audio="mansnothot"></Sound>
               <Sound audio="shit"></Sound>
+              <Sound audio="praying"></Sound>
             </div>
             <div className="columns">
               <Sound audio="bob-geengulden"></Sound>
